@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'HelveticaNeueBold';
-  src: url('../fonts/HelveticaNeueBold.ttf');
+  src: url('fonts/HelveticaNeueBold.ttf');
 }
 
 @font-face {
   font-family: 'HelveticaNeueMedium';
-  src: url('../fonts/HelveticaNeueMedium.ttf');
+  src: url('fonts/HelveticaNeueMedium.ttf');
 }
 
 @font-face {
   font-family: 'HelveticaNeueRegular';
-  src: url('../fonts/HelveticaNeueRegular.ttf');
+  src: url('fonts/HelveticaNeueRegular.ttf');
 }
 /** Menu **/
 div.menu {
@@ -19,7 +19,7 @@ div.menu {
     left: 60px;
     width: 30px;
     height: 30px;
-    background-image: url("../images/menu.svg");
+    background-image: url("images/menu.svg");
     background-position: center;
     cursor: pointer;
     background-repeat: no-repeat;
@@ -83,7 +83,7 @@ body {
 
 .section-one {
     display: flex;
-    background-image: url('../images/main-image.png');
+    background-image: url('images/main-image.png');
     text-align: right;
     background-repeat: no-repeat;
     height: 100vh;
@@ -130,7 +130,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-image: url('../images/home-image-two.png');
+    background-image: url('images/home-image-two.png');
     background-size: cover;
     height: 100vh;
     margin-bottom: 160px;
@@ -618,7 +618,7 @@ span {
 
 .news-girl {
   display: flex;
-  background-image: url('../images/new-news-girl.png');
+  background-image: url('images/new-news-girl.png');
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
